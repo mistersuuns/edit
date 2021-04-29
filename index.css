@@ -2,7 +2,7 @@
     border: solid black .01px;
 }*/
 body {
-    font-family: "IBM Plex Serif";
+    font-family: "Gill Sans";
     position: relative;
 }
 .container-fluid, .row, .col {
@@ -12,7 +12,10 @@ body {
     letter-spacing: .125em;
 }
 #headline {
-    font-size: 2.95em;
+    font-family: "IBM Plex Serif Medium";
+    font-style: bold;
+    font-size: 3em;
+    letter-spacing: none;
 }
 /* nav */
 .navbar {
