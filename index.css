@@ -9,11 +9,10 @@ body {
     margin: 0; padding: 0;
 }
 #header {
-    letter-spacing: .2em;
+    letter-spacing: .125em;
 }
 #headline {
     font-size: 2.95em;
-    font-family: "American Typewriter";
 }
 /* nav */
 .navbar {
@@ -49,7 +48,7 @@ body {
 h1 {
     color: rgb(228, 228, 228);
     font-weight: 600;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 }
 #position {
     font-size: 1.2em;
