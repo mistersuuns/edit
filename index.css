@@ -1,6 +1,10 @@
 /* {
     border: solid black .01px;
 }*/
+html {
+    scroll-snap-type: y mandatory;
+
+}
 body {
     font-family: "Gill Sans";
     position: relative;
@@ -8,15 +12,36 @@ body {
 .container-fluid, .row, .col {
     margin: 0; padding: 0;
 }
-#header {
+.container-fluid {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+.header {
     letter-spacing: .125em;
 }
-#headline {
+img {
+    width: 100%;
+    height: auto;
+}
+#zoom:hover {
+    transform: scale(2.25);
+    position: relative;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+#headline, #sell, #startup {
     font-family: "IBM Plex Serif Medium";
     font-style: bold;
-    font-size: 3em;
-    letter-spacing: none;
 }
+#sell, #startup, #headline {
+    font-size: 3.7em;
+    color:rgb(68, 68, 68);
+}
+
+#med, #pol {
+    letter-spacing: .125em;
+}
+
 /* nav */
 .navbar {
     width: 100vw;
@@ -94,9 +119,7 @@ h1 {
         letter-spacing: .06em;
     }
 
-    #copy, #print, #school, #volunteer, #contact {
-        margin-top: -10vh;
-    }
+
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -150,9 +173,7 @@ h1 {
     #goto {
         margin-top: 15vh; 
     }
-    #copy, #print, #school, #volunteer, #contact {
-        margin-top: -10vh;
-    }
+
 }
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
@@ -178,9 +199,7 @@ h1 {
     #goto {
         margin-top: 10vh; 
     }
-    #copy, #print, #school, #volunteer, #contact {
-        margin-top: -10vh;
-    }
+
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 /* SSSSSSSSSSSSSSSSSSSSSSSSSS5SSSSSSSSS */
@@ -210,9 +229,7 @@ h1 {
         line-height: 3.5vh;
     }
 
-    #copy, #print, #school, #volunteer, #contact {
-        margin-top: -9vh;
-    }
+
 }
 /* XS XS XS XS XS XS XS XS XS */
 /* XS XS XS XS XS XS XS XS XS */
