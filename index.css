@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 #zoom:hover {
-    transform: scale(2.25);
+    transform: scale(1.5);
     position: relative;
     z-index: 1;
     transition: 1s ease-in-out;
@@ -65,8 +65,7 @@ img {
 }
 /* nav */
 
-
-#line {
+ #line {
     letter-spacing: .109em;
     line-height: 1.1em;
     margin-bottom: 1.25vh;
