@@ -10,10 +10,6 @@ body {
     margin: 0; padding: 0;
 }
 
-.container-fluid {
-    /* scroll-snap-align: start; */
-}
-
 .header {
     letter-spacing: .125em;
 }
@@ -27,8 +23,8 @@ img {
     z-index: 1;
     transition: 1s ease-in-out;
 }
-#headline {
-    padding-top: 37.5vh;
+#bobrobert {
+    letter-spacing: 0.1em;
 }
 #headline, #sell, #startup {
     font-family: "IBM Plex Serif Medium";
@@ -94,6 +90,7 @@ h1 {
     padding-bottom: 1vh;
     padding-top: 0;
 }
+
 #bottom {
     padding-bottom: 25vh;
 }
@@ -101,7 +98,6 @@ h1 {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
-
     .navbar {
         padding: 0 17.5vw;
     }
@@ -112,9 +108,6 @@ h1 {
     }
     #nav {
         font-size: 1em;
-    }
-    #skill {
-        padding-top: 10vh;
     }
 
     #sell, #startup, #headline {
@@ -148,9 +141,6 @@ h1 {
     #nav {
         font-size: 1.2em;
     }
-    #skill {
-        padding-top: 10vh;
-    }
 
     #sell, #startup, #headline {
         font-size: 3em;
@@ -182,9 +172,6 @@ h1 {
     }
     #nav {
         font-size: 1.1em;
-    }
-    #skill {
-        padding-top: 2.5vh;
     }
 
     #sell, #startup, #headline {
@@ -218,9 +205,6 @@ h1 {
     #nav {
         font-size: 1.1em;
     }
-    #skill {
-        padding-top: 5vh;
-    }
 
     #sell, #startup, #headline {
         font-size: 3em;
@@ -253,9 +237,6 @@ h1 {
     }
     #nav {
         font-size: .9em;
-    }
-    #skill {
-        padding-top: 3.5vh;
     }
 
     #position, #place {
