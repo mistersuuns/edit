@@ -1,10 +1,7 @@
 /* {
     border: solid black .01px;
 }*/
-html {
-    scroll-snap-type: y mandatory;
 
-}
 body {
     font-family: "Gill Sans";
     position: relative;
@@ -12,10 +9,11 @@ body {
 .container-fluid, .row, .col {
     margin: 0; padding: 0;
 }
+
 .container-fluid {
-    height: 100vh;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
 }
+
 .header {
     letter-spacing: .125em;
 }
@@ -27,7 +25,10 @@ img {
     transform: scale(2.25);
     position: relative;
     z-index: 1;
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
+}
+#headline {
+    padding-top: 37.5vh;
 }
 #headline, #sell, #startup {
     font-family: "IBM Plex Serif Medium";
@@ -54,7 +55,7 @@ img {
 }
 .navbar-nav .nav-link.active {
     font-weight: 500;
-    color: rgb(68, 68, 68) !important;
+    color: darkgrey !important;
 }
 
 #ul {
@@ -63,11 +64,12 @@ img {
     display: flex;
     justify-content: space-between;
 }
+.nav-link {
+    color: black !important;
+}
 /* nav */
 
-#goto {
-        display: block; 
-}
+
 #line {
     letter-spacing: .109em;
     line-height: 1.1em;
@@ -99,6 +101,7 @@ h1 {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
+
     .navbar {
         padding: 0 17.5vw;
     }
@@ -113,13 +116,19 @@ h1 {
     #skill {
         padding-top: 10vh;
     }
-    #goto {
-        margin-top: 15vh; 
-        font-size: 1.3em;
-        letter-spacing: .06em;
+
+    #sell, #startup, #headline {
+        font-size: 2.5em;
+        color:rgb(68, 68, 68);
     }
-
-
+    img.pinky {
+        max-width: 22.5vw;
+        padding: 0 .25em .25em 0;
+    }
+    img.bor {
+        max-width: 12.5vw;
+        padding: 0 1em 1em 0;
+    }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -142,11 +151,18 @@ h1 {
     #skill {
         padding-top: 10vh;
     }
-    #goto {
-        margin-top: 15vh; 
+
+    #sell, #startup, #headline {
+        font-size: 3em;
+        color:rgb(68, 68, 68);
     }
-    #copy, #print, #school, #volunteer, #contact {
-        margin-top: -10vh;
+    img.pinky {
+        max-width: 38vw;
+        padding: 0 .25em .25em 0;
+    }
+    img.bor {
+        max-width: 15vw;
+        padding: 0 1em 1em 0;
     }
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -170,10 +186,19 @@ h1 {
     #skill {
         padding-top: 2.5vh;
     }
-    #goto {
-        margin-top: 15vh; 
-    }
 
+    #sell, #startup, #headline {
+        font-size: 2.5em;
+        color:rgb(68, 68, 68);
+    }
+    img.pinky {
+        max-width: 35vw;
+        padding: 0 .25em .25em 0;
+    }
+    img.bor {
+        max-width: 15vw;
+        padding: 0 1em 1em 0;
+    }
 }
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
@@ -196,8 +221,18 @@ h1 {
     #skill {
         padding-top: 5vh;
     }
-    #goto {
-        margin-top: 10vh; 
+
+    #sell, #startup, #headline {
+        font-size: 3em;
+        color:rgb(68, 68, 68);
+    }
+    img.pinky {
+        max-width: 32.5vw;
+        padding: 0 .25em .25em 0;
+    }
+    img.bor {
+        max-width: 22.5vw;
+        padding: 0 1em 1em 0;
     }
 
 }
@@ -222,11 +257,22 @@ h1 {
     #skill {
         padding-top: 3.5vh;
     }
-    #goto {
-        margin-top: 7vh; 
-    }
+
     #position, #place {
         line-height: 3.5vh;
+    }
+  
+    #sell, #startup, #headline {
+        font-size: 2.5em;
+        color:rgb(68, 68, 68);
+    }
+    img.pinky {
+        max-width: 32.5vw;
+        padding: 0 .25em .25em 0;
+    }
+    img.bor {
+        max-width: 22.5vw;
+        padding: 0 1em 1em 0;
     }
 
 
