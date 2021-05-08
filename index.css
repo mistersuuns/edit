@@ -24,7 +24,8 @@ img {
     transition: 1s ease-in-out;
 }
 #bobrobert {
-    letter-spacing: 0.1em;
+    letter-spacing: .2em;
+    font-weight: 300;
 }
 #headline, #sell, #startup {
     font-family: "IBM Plex Serif Medium";
