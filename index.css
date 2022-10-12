@@ -1,6 +1,6 @@
 /* {
     border: solid black .01px;
-}*/
+} */
 
 body {
     font-family: "Gill Sans";
@@ -17,12 +17,6 @@ body {
 img {
     width: 100%;
     height: auto;
-}
-#zoom:hover {
-    transform: scale(1.25);
-    position: relative;
-    z-index: 1;
-    transition: 1s ease-in-out;
 }
 #bobrobert {
     letter-spacing: .2em;
@@ -118,12 +112,8 @@ h1 {
         font-size: 2.5em;
         color:rgb(0, 0, 0);
     }
-    img.pinky {
-        max-width: 22.5vw;
-        padding: 0 .25em .25em 0;
-    }
-    img.bor {
-        max-width: 12.5vw;
+    img.pinky, img.bor {
+        max-width: 25vw;
         padding: 0 1em 1em 0;
     }
 }
@@ -150,12 +140,8 @@ h1 {
         font-size: 3em;
         color:rgb(68, 68, 68);
     }
-    img.pinky {
-        max-width: 38vw;
-        padding: 0 .25em .25em 0;
-    }
-    img.bor {
-        max-width: 15vw;
+    img.pinky, img.bor {
+        max-width: 35vw;
         padding: 0 1em 1em 0;
     }
 }
@@ -182,13 +168,9 @@ h1 {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    img.pinky {
-        max-width: 35vw;
-        padding: 0 .25em .25em 0;
-    }
-    img.bor {
-        max-width: 15vw;
-        padding: 0 1em 1em 0;
+    img.pinky, img.bor {
+        max-width: 50vw;
+        padding: 0 1em 2em 1em;
     }
 }
 /* MED MED MED MED MED MED MED MED MED */
@@ -211,17 +193,14 @@ h1 {
     }
 
     #sell, #startup, #headline {
-        font-size: 3em;
+        font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    img.pinky {
-        max-width: 32.5vw;
-        padding: 0 .25em .25em 0;
+    img.pinky, img.bor {
+        max-width: 50vw;
+        padding: 0 1em 2em 1em;
     }
-    img.bor {
-        max-width: 22.5vw;
-        padding: 0 1em 1em 0;
-    }
+    
 
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
@@ -251,12 +230,9 @@ h1 {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    img.pinky {
+
+    img.pinky, img.bor {
         max-width: 32.5vw;
-        padding: 0 .25em .25em 0;
-    }
-    img.bor {
-        max-width: 22.5vw;
         padding: 0 1em 1em 0;
     }
 
