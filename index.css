@@ -1,6 +1,6 @@
-/* {
+* {
     border: solid black .01px;
-} */
+} 
 
 body {
     font-family: "Gill Sans";
@@ -112,9 +112,13 @@ h1 {
         font-size: 2.5em;
         color:rgb(0, 0, 0);
     }
+    img.punk {
+        max-width: 20vw;
+        padding: 1em 1em 1em 0;
+    }
     img.pinky, img.bor {
         max-width: 25vw;
-        padding: 0 1em 1em 0;
+        padding: 1em 1em 1em 0;
     }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -139,6 +143,10 @@ h1 {
     #sell, #startup, #headline {
         font-size: 3em;
         color:rgb(68, 68, 68);
+    }
+    img.punk {
+        max-width: 22.5vw;
+        padding: 1em 1em 1em 2em;
     }
     img.pinky, img.bor {
         max-width: 35vw;
@@ -168,6 +176,10 @@ h1 {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
+    img.punk {
+        max-width: 35vw;
+        padding: 5em 1em 1em 2em;
+    }
     img.pinky, img.bor {
         max-width: 50vw;
         padding: 0 1em 2em 1em;
@@ -195,6 +207,10 @@ h1 {
     #sell, #startup, #headline {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
+    }
+    img.punk {
+        max-width: 35vw;
+        padding: 5em 1em 1em 2em;
     }
     img.pinky, img.bor {
         max-width: 50vw;
@@ -230,9 +246,12 @@ h1 {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-
+    img.punk {
+        max-width: 60vw;
+        padding: 5em 1em 1em 2em;
+    }
     img.pinky, img.bor {
-        max-width: 32.5vw;
+        max-width: 70vw;
         padding: 0 1em 1em 0;
     }
 
