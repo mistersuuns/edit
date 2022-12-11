@@ -26,11 +26,31 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh1+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="kubGrey.webp">
     <link rel="stylesheet" type="text/css" href="index.css">
+<style>
+    #touch, #link {
+            animation-name: stretch;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+        }
+
+    @keyframes stretch {
+            0% {
+                transform: scale(1.0);
+            }
+  
+            100% {
+                transform: scale(1.2);
+            }
+        }
+</style>
+
     <title>B O B&nbsp;&nbsp;R O B E R T</title>
 </head>
 
 <body>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-1 col-md-2"></div>
@@ -57,13 +77,14 @@
         </nav>
     </div>
 
-
     <div class="container-fluid" id="copy">
         <div class="row">
             <div class="col-xs-1 col-md-2"></div>
-            <div class="col-xs-10 col-md-8">
+            <div class="col-xs-10 col-md-8 ">
                 <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                <span id="sell">Some recent copy / editing. Click and read.</span>
+                <span id="sell">Some recent copy / editing.</span>
+                <br>
+                <span id="clickToRead"><img id="touch" src="touchTilt.png">&nbsp; click title to read</span>
                 <br><br>
                 <div id="line">
                     <a style="color: black">Dolf Finance Mobile App, UI/UX Editor.&nbsp;</a><a style="color: grey;">Dec 2022. Editor.</a>
@@ -78,7 +99,7 @@
                 </div>
                 <br>
                 <div id="line">
-                    <a href="https://www.craft.do/s/C2eymgY8HL4i4Z" style="color: black" target="blank"style="color: black">How we work at Bitraptors.&nbsp;<img id="touch" src="touchTilt.png"></a><a style="color:grey;">&nbsp;&nbsp;bitraptors.com. Oct 2022. Editor.</a>  
+                    <a href="https://www.craft.do/s/C2eymgY8HL4i4Z" style="color: black" target="blank"style="color: black" id="touch">How we work at Bitraptors.&nbsp;<img id="touch" src="touchTilt.png"></a><a style="color:grey;">&nbsp;&nbsp;bitraptors.com. Oct 2022. Editor.</a>  
                 </div>
                 <br>
                 <div id="line">
@@ -102,8 +123,7 @@
                         style="color: grey;">&nbsp;&nbsp;thedoe.com. Oct 2021. Author.</a>
                 </div>
                 <br>
-
-                                <div id="line"><a
+                <div id="line"><a
                         href="https://virtualelectronics.sg/news/what-is-a-people-centered-culture-and-how-can-it-help-businesses-in-uncertainty/"
                         style="color: black" target="_blank">What is a people-centered culture and how can it help
                         businesses in uncertainty?&nbsp;<img id="touch" src="touchTilt.png">&nbsp;</a><a
@@ -130,7 +150,6 @@
                         Editor.</a>
                 </div>
                 <br>
-
                 <div id="line"><a href="https://beetroot.co/business/why-companies-outsource/" style="color: black"
                         target="_blank">Why do companies outsource? A close look at the data.&nbsp;<img id="touch"
                             src="touchTilt.png">&nbsp;</a><a style="color:grey;"> Beetroot.co.
@@ -149,18 +168,15 @@
                         src="touchTilt.png">&nbsp;</a><a style="color:grey;"> Clin Infect Dis 2013 Sep;
                     57(6):820-7.</a></div>
                 <br>
-                
                 <div id="line">Kant’s Children’s Children: Rawls and Habermas on how to raise kids. <a
                     style="color:grey;">R. Turner.
                     Midwest Political Science Association Annual Conference. Chicago, Illinois. April 2013.</a>
                 </div>
                 <br>
-
                 <div id="line">The Mental Health of Youth and Children in Ontario: Baseline Scorecard. <a
                     style="color:grey;">IC/ES.
                     March 2013.</a></div>
                 <br>
-                 
                 <div id="line">Ontario Children and Youth Mental Health and Addictions Strategy Evaluation
                     Framework (MHASEF). Report to the Ministry of Health and Long Term Care.<a style="color: grey;">
                         IC/ES. October 2012.</a>
@@ -177,7 +193,6 @@
                             src="touchTilt.png">&nbsp;</a><a style="color:grey;"> The Drama Review Fall 2010, 54(3):
                         123-135.</a>
                 </div>
-           
                 <div id="line"><a href="https://mistersuuns.medium.com/seeing-like-a-siphonophore-a5b03a5dbf89"
                         style="color: black" target="_blank">Seeing like a Siphonophore: vertical migration above and
                         below.&nbsp;<img id="touch" src="touchTilt.png">&nbsp;</a><a style="color:grey;"> Test task (Superflex).
@@ -196,32 +211,31 @@
             <div class="col-xs-10 col-md-8">
                 <br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="row">
-                    <div class="col" id="startup">Some things we've edited for users.</div>
-                </div>
-                <div class="row">
-                    <div class="col-s-10" style="object-fit: contain;">
-                        <img class="pinky" src="pinky-1.png">
+                    <div class="col" id="startup">Some things we've done for users.</div>
+                </div><br><br>
+                
+                    <div class="col-6 things" style="object-fit: contain;">
+                        <a href="https://drive.google.com/file/d/18OSXbB-VGVvYRGXIDhh6E1dBRhTE4QQK/view?usp=sharing"
+                        target="blank"><img class="pdv" id="link" src="totlPDV.webp"></a>
+                    </div>
+                    <div class="col-6 things" style="object-fit: contain;">
+                        <a><img class="things" src="pinky-1.png"></a>
+                    </div>
+                    <div class="col-6 things">
+                        <a href="https://24px.rocks/" target="_blank"><img class="mooncats" id="link" src="mooncats.png"></a>
+                    </div>
+                    <!--<div class="col-6 things">
+                        <a href="https://24px.rocks/" target="_blank"><img class="things" src="nft-text.png"></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-s-10" style="object-fit: contain;">
-                        <img class="pinky" src="pinky-1.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-s-10">
-                        <a href="https://24px.rocks/" target="_blank"><img class="bor" src="mooncats.png"></a>
-                    </div>
-                    <div class="col-s-10">
-                        <a href="https://24px.rocks/" target="_blank"><img class="bor" src="nft-text.png"></a>
-                    </div>
-                    <div class="col-s-10">
-                        <a href="https://opensea.io/collection/punkrcks/" target="_blank"><img class="punk" src="punkrocks.png"></a>
-                    </div>
-                    <div class="col-s-10">
-                        <a href="" target="_blank"><img class="punk" src="punkrocks.png"></a>
+                    <div class="col-6 things">
+                        <a href="https://opensea.io/collection/punkrcks/" target="_blank"><img class="things" src="punkrocks.png"></a>
+                    </div>-->
+                    <div class="col-6 things">
+                        <a><img class="things" src="godSaveTheQueen.png"></a>
                     </div>                    
-                </div>
+                
             </div>
             <div class="col-xs-1 col-md-2"></div>
         </div>
@@ -279,7 +293,6 @@
                     Framework (MHASEF). Report to the Ministry of Health and Long Term Care.<a style="color: grey;">
                         IC/ES. October 2012.</a>
                 </div>
-
             </div>
             <div class="col-xs-1 col-md-2"></div>
         </div>
