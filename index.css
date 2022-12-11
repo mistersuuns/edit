@@ -84,7 +84,7 @@ h1 {
     padding-top: 0;
 }
 #touch {
-    width: 1em;
+    width: 1.4em;
 }
 #clickToRead {
     font-size: 2.25em;
@@ -98,14 +98,14 @@ h1 {
     padding: 2vw 1vw;
 }
 img.things {
-    width: 13em;
+    width: 15em;
 }
 img.mooncats {
     padding: 2vw 0;
-    width: 9em;
+    width: 16em;
 }
 .pdv {
-    width: 15vw;
+    width: 10em;
 }
 
 #bottom {
@@ -172,7 +172,16 @@ img.mooncats {
     }
     img.pinky, img.bor {
         max-width: 25vw;
-        
+    }
+    img.things {
+        width: 18em;
+    }
+    img.mooncats {
+        padding: 2vw 0;
+        width: 18em;
+    }
+    .pdv {
+        width: 14vw;
     }
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
