@@ -18,7 +18,8 @@ img {
 }
 #bobrobert {
     letter-spacing: .2em;
-    font-weight: 300;
+    font-weight:lighter;
+    font-size: large;
 }
 #headline, #sell, #startup, #clickToRead {
     font-family: "IBM Plex Serif Medium";
