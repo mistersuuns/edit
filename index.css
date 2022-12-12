@@ -135,7 +135,7 @@ img.mooncats {
         max-width: 20vw;
         padding: 1em 1em 1em 0;
     }
-    img.pinky, img.bor {
+    img.pinky {
         max-width: 25vw;
     }
     img.bor {
@@ -170,7 +170,7 @@ img.mooncats {
         max-width: 22.5vw;
         padding: 1em 1em 1em 2em;
     }
-    img.pinky, img.bor {
+    img.pinky {
         max-width: 25vw;
     }
     img.things {
@@ -181,7 +181,7 @@ img.mooncats {
         width: 18em;
     }
     .pdv {
-        width: 14vw;
+        width: 8em;
     }
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -211,8 +211,15 @@ img.mooncats {
         max-width: 35vw;
         padding: 5em 1em 1em 2em;
     }
-    img.pinky, img.bor {
+    img.pinky {
         max-width: 50vw;
+    }
+    img.mooncats {
+        padding: 2vw 0;
+        width: 18em;
+    }
+    .pdv {
+        width: 6em;
     }
 }
 /* MED MED MED MED MED MED MED MED MED */
@@ -242,12 +249,15 @@ img.mooncats {
         max-width: 35vw;
         padding: 5em 1em 1em 2em;
     }
-    img.pinky, img.bor {
+    img.pinky {
         max-width: 50vw;
     }
     img.mooncats {
         padding: 2vw 0;
-        width: 12em;
+        width: 16em;
+    }
+    .pdv {
+        width: 6em;
     }
 
 }
@@ -282,16 +292,16 @@ img.mooncats {
         max-width: 60vw;
         padding: 5em 1em 1em 2em;
     }
-    img.pinky, img.bor {
+    img.pinky {
         max-width: 70vw;
     }
     img.mooncats {
         padding: 2vw 0;
-        width: 12em;
+        width: 15em;
     }
     img.pdv {
         padding: 2vw;
-        width: 8em;
+        width: 6em;
     }
 
 
