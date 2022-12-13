@@ -141,13 +141,16 @@ img.mooncats {
 
     .mooncatsCrop, .totl {
         width: 10em;
+        margin: .25em;
     }
     
     .pdv {
         width: 8em;
+        margin: .5em;
     }
     .jhu {
         width: 8em;
+        margin: .5em;
     }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -179,13 +182,16 @@ img.mooncats {
     }
     .mooncatsCrop, .totl {
         width: 8em;
+        margin: .25em;
     }
     
     .pdv {
         width: 8em;
+        margin: .25em;
     }
     .jhu {
         width: 6em;
+        margin: .25em;
     }
 
 }
@@ -214,13 +220,18 @@ img.mooncats {
     }
     
     .mooncatsCrop, .totl {
+        margin: .25em;
         width: 7em;
     }
     .pdv {
         width: 6em;
+        margin: .25em;
+
     }
     .jhu {
         width: 5em;
+        margin: .25em;
+
     }
     img.mooncats {
         padding: 2vw 0;
@@ -252,15 +263,19 @@ img.mooncats {
     }
     .mooncatsCrop, .totl {
         width: 9em;
+        margin: .25em;
     }
     .pdv {
         width: 6em;
+        margin: .25em;
     }
     .jhu {
         width: 5em;
+        margin: .25em;
     }
     .virtual {
         width: 20em;
+        margin: .25em;
     }
     img.mooncats {
         padding: 2vw 0;
@@ -298,13 +313,16 @@ img.mooncats {
 
     .mooncatsCrop, .totl {
         width: 7em;
+        margin: .25em;
     }
 
     .jhu {
         width: 5em;
+        margin: .25em;
     }
     .virtual {
         width: 20em;
+        margin: .25em;
     }
 
     img.mooncats {
