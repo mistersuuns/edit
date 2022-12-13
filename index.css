@@ -91,12 +91,20 @@ h1 {
     font-size: 2.25em;
     color: rgb(151, 151, 151);
 }
-
+.coded {
+    width: 18em; 
+}
 .col-6.things {
     display: grid;
     align-items: center;
     text-align: center;
-    padding: 2vw 1vw;
+    padding: 1vw 1vw;
+}
+.col-md-3, .col-s-6 {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 1vw 1vw;
 }
 img.things {
     width: 15em;
@@ -105,9 +113,7 @@ img.mooncats {
     padding: 2vw 0;
     width: 16em;
 }
-.pdv {
-    width: 8em;
-}
+
 
 #bottom {
     padding-bottom: 25vh;
@@ -132,16 +138,16 @@ img.mooncats {
         font-size: 2.5em;
         color:rgb(0, 0, 0);
     }
-    img.punk {
-        max-width: 20vw;
-        padding: 1em 1em 1em 0;
+
+    .mooncatsCrop, .totl {
+        width: 10em;
     }
-    img.pinky {
-        max-width: 25vw;
+    
+    .pdv {
+        width: 8em;
     }
-    img.bor {
-        max-width: 10vw;
-        margin: 4em 4em 4em 0;
+    .jhu {
+        width: 8em;
     }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -167,23 +173,21 @@ img.mooncats {
         font-size: 3em;
         color:rgb(68, 68, 68);
     }
-    img.punk {
-        max-width: 22.5vw;
-        padding: 1em 1em 1em 2em;
-    }
-    img.pinky {
-        max-width: 25vw;
-    }
+
     img.things {
         width: 18em;
     }
-    img.mooncats {
-        padding: 2vw 0;
-        width: 18em;
+    .mooncatsCrop, .totl {
+        width: 8em;
     }
+    
     .pdv {
         width: 8em;
     }
+    .jhu {
+        width: 6em;
+    }
+
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -208,19 +212,19 @@ img.mooncats {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    img.punk {
-        max-width: 35vw;
-        padding: 5em 1em 1em 2em;
+    
+    .mooncatsCrop, .totl {
+        width: 7em;
     }
-    img.pinky {
-        max-width: 50vw;
+    .pdv {
+        width: 6em;
+    }
+    .jhu {
+        width: 5em;
     }
     img.mooncats {
         padding: 2vw 0;
         width: 18em;
-    }
-    .pdv {
-        width: 6em;
     }
 }
 /* MED MED MED MED MED MED MED MED MED */
@@ -246,19 +250,21 @@ img.mooncats {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    img.punk {
-        max-width: 35vw;
-        padding: 5em 1em 1em 2em;
-    }
-    img.pinky {
-        max-width: 50vw;
-    }
-    img.mooncats {
-        padding: 2vw 0;
-        width: 16em;
+    .mooncatsCrop, .totl {
+        width: 9em;
     }
     .pdv {
         width: 6em;
+    }
+    .jhu {
+        width: 5em;
+    }
+    .virtual {
+        width: 20em;
+    }
+    img.mooncats {
+        padding: 2vw 0;
+        width: 10em;
     }
 
 }
@@ -278,7 +284,7 @@ img.mooncats {
         background-size: 97vw;
     }
     #nav {
-        font-size: .9em;
+        font-size: .8em;
     }
 
     #position, #place {
@@ -289,13 +295,18 @@ img.mooncats {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    img.punk {
-        max-width: 60vw;
-        padding: 5em 1em 1em 2em;
+
+    .mooncatsCrop, .totl {
+        width: 7em;
     }
-    img.pinky {
-        max-width: 70vw;
+
+    .jhu {
+        width: 5em;
     }
+    .virtual {
+        width: 20em;
+    }
+
     img.mooncats {
         padding: 2vw 0;
         width: 15em;
