@@ -118,9 +118,16 @@ img.things {
 }
 img.mooncats {
     padding: 2vw 0;
-    width: 16em;
+    width: 10em;
 }
-
+img.things {
+    width: 10em;
+    margin: .25em;
+}
+.jhu {
+    width: 5em;
+    margin: .5em;
+}
 
 #bottom {
     padding-bottom: 25vh;
@@ -146,15 +153,7 @@ img.mooncats {
         color:rgb(0, 0, 0);
     }
 
-    
-    .pdv {
-        width: 8em;
-        margin: .5em;
-    }
-    .jhu {
-        width: 5em;
-        margin: .5em;
-    }
+
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -178,16 +177,6 @@ img.mooncats {
     #sell, #startup, #headline {
         font-size: 3em;
         color:rgb(68, 68, 68);
-    }
-
-    img.things {
-        width: 18em;
-    }
-
-    
-    .pdv {
-        width: 8em;
-        margin: .25em;
     }
 
 
@@ -268,7 +257,7 @@ img.mooncats {
         color:rgb(68, 68, 68);
     }
     .totl {
-        width: 9em;
+        width: 6em;
         margin: .25em;
     }
     .pdv {
@@ -318,7 +307,7 @@ img.mooncats {
     }
 
     .totl {
-        width: 7em;
+        width: 6em;
         margin: .25em;
     }
 
@@ -330,7 +319,7 @@ img.mooncats {
 
     img.mooncats {
         padding: 2vw 0;
-        width: 15em;
+        width: 10em;
     }
     img.pdv {
         padding: 2vw;
