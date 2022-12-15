@@ -94,13 +94,8 @@ h1 {
 .coded {
     width: 18em; 
 }
-.col-6.things {
-    display: grid;
-    align-items: center;
-    text-align: center;
-    padding: 1vw 1vw;
-}
-.col-md-3, .col-s-6 {
+.col-md-3, .col-s-4,
+.col-lg-4, .col-md-6 {
     display: grid;
     align-items: center;
     text-align: center;
@@ -108,6 +103,18 @@ h1 {
 }
 img.things {
     width: 15em;
+}
+.totl {
+    width: 6em;
+    margin: .25em;
+}
+.virtual {
+    width: 12em;
+    margin: .25em;
+}
+.title {
+    width: 10em;
+    margin: .25em;
 }
 img.mooncats {
     padding: 2vw 0;
@@ -139,17 +146,13 @@ img.mooncats {
         color:rgb(0, 0, 0);
     }
 
-    .mooncatsCrop, .totl {
-        width: 10em;
-        margin: .25em;
-    }
     
     .pdv {
         width: 8em;
         margin: .5em;
     }
     .jhu {
-        width: 8em;
+        width: 5em;
         margin: .5em;
     }
 }
@@ -180,19 +183,13 @@ img.mooncats {
     img.things {
         width: 18em;
     }
-    .mooncatsCrop, .totl {
-        width: 8em;
-        margin: .25em;
-    }
+
     
     .pdv {
         width: 8em;
         margin: .25em;
     }
-    .jhu {
-        width: 6em;
-        margin: .25em;
-    }
+
 
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -218,11 +215,20 @@ img.mooncats {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    
-    .mooncatsCrop, .totl {
+
+    .totl {
+        width: 5em;
         margin: .25em;
-        width: 7em;
     }
+    .virtual {
+        width: 11em;
+        margin: .25em;
+    }
+    .title {
+        width: 10em;
+        margin: .25em;
+    }
+
     .pdv {
         width: 6em;
         margin: .25em;
@@ -261,7 +267,7 @@ img.mooncats {
         font-size: 2.5em;
         color:rgb(68, 68, 68);
     }
-    .mooncatsCrop, .totl {
+    .totl {
         width: 9em;
         margin: .25em;
     }
@@ -279,7 +285,7 @@ img.mooncats {
     }
     img.mooncats {
         padding: 2vw 0;
-        width: 10em;
+        width: 15em;
     }
 
 }
@@ -311,15 +317,12 @@ img.mooncats {
         color:rgb(68, 68, 68);
     }
 
-    .mooncatsCrop, .totl {
+    .totl {
         width: 7em;
         margin: .25em;
     }
 
-    .jhu {
-        width: 5em;
-        margin: .25em;
-    }
+
     .virtual {
         width: 20em;
         margin: .25em;
