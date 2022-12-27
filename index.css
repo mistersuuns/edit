@@ -69,31 +69,46 @@ body {
     font-family: "Gill Sans";
     position: relative;
 }
-.container-fluid, .row, .col {
-    margin: 0; padding: 0;
+
+.container-fluid,
+.row,
+.col {
+    margin: 0;
+    padding: 0;
 }
+
 .header {
     letter-spacing: .125em;
 }
+
 img {
     width: 100%;
     height: auto;
 }
+
 #bobrobert {
     letter-spacing: .2em;
-    font-weight:lighter;
+    font-weight: lighter;
     font-size: large;
 }
-#headline, #sell, #startup, #clickToRead {
+
+#headline,
+#sell,
+#startup,
+#clickToRead {
     font-family: "IBM Plex Serif Medium";
     font-style: bold;
 }
-#sell, #startup, #headline {
+
+#sell,
+#startup,
+#headline {
     font-size: 3.7em;
-    color:rgb(68, 68, 68);
+    color: rgb(68, 68, 68);
 }
 
-#med, #pol {
+#med,
+#pol {
     letter-spacing: .125em;
 }
 
@@ -103,10 +118,12 @@ img {
     /*position: fixed;*/
     z-index: 1;
 }
+
 .navbar a {
     font-weight: 100;
     letter-spacing: .3vw;
 }
+
 .navbar-nav .nav-link.active {
     font-weight: 500;
     color: darkgrey !important;
@@ -118,27 +135,32 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
 .nav-link {
     color: black !important;
 }
+
 /* nav */
 
- #line {
+#line {
     letter-spacing: .109em;
     line-height: 1.1em;
     margin-bottom: 1.25vh;
 }
+
 h1 {
     color: rgb(228, 228, 228);
     font-weight: 600;
     letter-spacing: .1em;
 }
+
 #position {
     font-size: 1.2em;
     letter-spacing: .15em;
     line-height: 2.8vh;
     padding-bottom: .8vh;
 }
+
 #place {
     color: rgb(151, 151, 151);
     font-size: 1em;
@@ -147,52 +169,81 @@ h1 {
     padding-bottom: 1vh;
     padding-top: 0;
 }
+
 #touch {
     width: 1.4em;
 }
+
 #clickToRead {
     font-size: 2.25em;
     color: rgb(151, 151, 151);
 }
+
 .coded {
-    width: 18em; 
+    width: 18em;
 }
-.col-md-3, .col-s-4,
-.col-lg-4, .col-md-6 {
+
+.col-md-3,
+.col-s-4,
+.col-lg-4,
+.col-md-6 {
     display: grid;
     align-items: center;
     text-align: center;
     padding: 1vw 1vw;
 }
-img.things {
+
+img.things, img.thing {
     width: 15em;
 }
+
 .totl {
     width: 6em;
     margin: .25em;
 }
+
 .virtual {
     width: 12em;
     margin: .25em;
 }
+
 .title {
     width: 10em;
     margin: .25em;
 }
+
 img.mooncats {
     padding: 2vw 0;
     width: 10em;
 }
-img.things {
+
+img.things, img.thing {
     width: 10em;
     margin: .25em;
 }
+
 .jhu {
     width: 5em;
     margin: .5em;
 }
+
 #envelope {
     width: 5em;
+}
+
+.envelope, .jhu, .things, .totl, .virtual,
+.title,
+.nav-link {
+    transition: all .5s ease-in-out;
+}
+
+.envelope:hover, .jhu:hover, .things:hover, .totl:hover, .virtual:hover,
+.title:hover,
+.nav-link:hover {
+    transform: scale(1.1);
+}
+#envelope:hover {
+text-decoration: none;
 }
 
 #bottom {
@@ -205,22 +256,27 @@ img.things {
     .navbar {
         padding: 0 17.5vw;
     }
+
     #ul {
         padding: 0;
         width: 100vw;
         background-size: 67vw;
     }
+
     #nav {
         font-size: 1em;
     }
 
-    #sell, #startup, #headline {
+    #sell,
+    #startup,
+    #headline {
         font-size: 2.5em;
-        color:rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
     }
 
 
 }
+
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 
@@ -231,22 +287,27 @@ img.things {
     .navbar {
         padding: 0 17.75vw;
     }
+
     #ul {
         padding: 3.75vh 0;
         width: 100vw;
         background-size: 65vw;
     }
+
     #nav {
         font-size: 1.2em;
     }
 
-    #sell, #startup, #headline {
+    #sell,
+    #startup,
+    #headline {
         font-size: 3em;
-        color:rgb(68, 68, 68);
+        color: rgb(68, 68, 68);
     }
 
 
 }
+
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 
@@ -257,28 +318,34 @@ img.things {
     .navbar {
         padding: 0 18vw;
     }
+
     #ul {
         padding: 2.5vh 0;
         width: 100vw;
         background-size: 64vw;
     }
+
     #nav {
         font-size: 1.1em;
     }
 
-    #sell, #startup, #headline {
+    #sell,
+    #startup,
+    #headline {
         font-size: 2.5em;
-        color:rgb(68, 68, 68);
+        color: rgb(68, 68, 68);
     }
 
     .totl {
         width: 5em;
         margin: .25em;
     }
+
     .virtual {
         width: 11em;
         margin: .25em;
     }
+
     .title {
         width: 10em;
         margin: .25em;
@@ -289,16 +356,19 @@ img.things {
         margin: .25em;
 
     }
+
     .jhu {
         width: 5em;
         margin: .25em;
 
     }
+
     img.mooncats {
         padding: 2vw 0;
         width: 18em;
     }
 }
+
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
 
@@ -309,41 +379,51 @@ img.things {
     .navbar {
         padding: 0 2vw;
     }
+
     #ul {
-            padding: 3.25vh 0;
-            width: 100vw;
-            background-size: 97vw;
+        padding: 3.25vh 0;
+        width: 100vw;
+        background-size: 97vw;
     }
+
     #nav {
         font-size: 1.1em;
     }
 
-    #sell, #startup, #headline {
+    #sell,
+    #startup,
+    #headline {
         font-size: 2.5em;
-        color:rgb(68, 68, 68);
+        color: rgb(68, 68, 68);
     }
+
     .totl {
         width: 6em;
         margin: .25em;
     }
+
     .pdv {
         width: 6em;
         margin: .25em;
     }
+
     .jhu {
         width: 5em;
         margin: .25em;
     }
+
     .virtual {
         width: 20em;
         margin: .25em;
     }
+
     img.mooncats {
         padding: 2vw 0;
         width: 15em;
     }
 
 }
+
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 /* SSSSSSSSSSSSSSSSSSSSSSSSSS5SSSSSSSSS */
 
@@ -354,22 +434,27 @@ img.things {
     .navbar {
         padding: 0 3vw;
     }
+
     #ul {
         padding: 2.5vh 0;
         width: 100vw;
         background-size: 97vw;
     }
+
     #nav {
         font-size: .8em;
     }
 
-    #position, #place {
+    #position,
+    #place {
         line-height: 3.5vh;
     }
-  
-    #sell, #startup, #headline {
+
+    #sell,
+    #startup,
+    #headline {
         font-size: 2.5em;
-        color:rgb(68, 68, 68);
+        color: rgb(68, 68, 68);
     }
 
     .totl {
@@ -387,6 +472,7 @@ img.things {
         padding: 2vw 0;
         width: 10em;
     }
+
     img.pdv {
         padding: 2vw;
         width: 6em;
@@ -395,5 +481,6 @@ img.things {
 
 
 }
+
 /* XS XS XS XS XS XS XS XS XS */
 /* XS XS XS XS XS XS XS XS XS */
