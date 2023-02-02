@@ -178,6 +178,9 @@ h1 {
     font-size: 2.25em;
     color: rgb(151, 151, 151);
 }
+#subtitle {
+    font-size: 1.5em;
+}
 
 .coded {
     width: 18em;
@@ -243,7 +246,7 @@ img.things, img.thing {
     transform: scale(1.1);
 }
 #envelope:hover {
-text-decoration: none;
+    text-decoration: none;
 }
 
 #bottom {
