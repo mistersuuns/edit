@@ -142,7 +142,10 @@ img {
 
 /* nav */
 
-#line {
+#test {
+    font-size: 1.15em;
+}
+#line, #test {
     letter-spacing: .109em;
     line-height: 1.1em;
     margin-bottom: 1.25vh;
