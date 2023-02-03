@@ -107,9 +107,9 @@ img {
     color: rgb(68, 68, 68);
 }
 
-#med,
 #pol {
-    letter-spacing: .125em;
+    font-size: 1.25em;
+    letter-spacing: .175em;
 }
 
 /* nav */
