@@ -13,7 +13,7 @@ body {
   display: block;
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   -webkit-transform: translate(-50%,-50%);
 }
 
@@ -147,8 +147,18 @@ img {
 }
 #line, #test {
     letter-spacing: .109em;
-    line-height: 1.1em;
+    line-height: 1.2em;
     margin-bottom: 1.25vh;
+}
+#text {
+    font-size: .85em;
+    color: grey;
+}
+#quote {
+    color: grey;
+}
+#title {
+    line-height: 1.3em;
 }
 
 h1 {
