@@ -118,6 +118,7 @@ img {
 
 /* nav */
 .navbar {
+    padding-top: 1em;
     width: 65vw;
     z-index: 1;
 }
@@ -271,7 +272,7 @@ img.things, img.thing {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
     .navbar {
-        padding: 0;
+        padding: 1em 0 0 0;
     }
 
     #ul {
@@ -301,7 +302,7 @@ img.things, img.thing {
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
-        padding: 0;
+        padding: 1em 0 0 0;
     }
 
     #ul {
@@ -394,7 +395,7 @@ img.things, img.thing {
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
         margin:0;
-        padding:0;
+        padding:1em 0 0 0;
         width: 97.5vw;
     }
     #ul {
@@ -450,7 +451,7 @@ img.things, img.thing {
 @media (max-width: 575px) {
     .navbar {
         margin:0;
-        padding:0;
+        padding:1em 0 0 0;
         width: 100vw;
     }
 
