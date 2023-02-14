@@ -76,6 +76,7 @@ body {
     margin: 0;
     padding: 0;
 }
+.col-12 {margin: 0;}
 .col-lg-6, .col-xl-4, .col-xl-8 {
     padding: .25em;
 }
@@ -117,8 +118,7 @@ img {
 
 /* nav */
 .navbar {
-    width: 100vw;
-    /*position: fixed;*/
+    width: 65vw;
     z-index: 1;
 }
 
@@ -133,8 +133,6 @@ img {
 }
 
 #ul {
-    /*background: url("wideROBERT.webp");
-    background-repeat: no-repeat;*/
     display: flex;
     justify-content: space-between;
 }
@@ -266,24 +264,23 @@ img.things, img.thing {
 }
 
 #bottom {
-    padding-bottom: 25vh;
+    padding-bottom: 10vh;
 }
 
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
     .navbar {
-        padding: 0 17.5vw;
+        padding: 0;
     }
 
     #ul {
-        padding: 0;
-        width: 100vw;
+        width: 100%;
         background-size: 67vw;
     }
 
     #nav {
-        font-size: 1em;
+        font-size: 1.25em;
     }
 
     #sell,
@@ -304,7 +301,7 @@ img.things, img.thing {
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
-        padding: 0 17.75vw;
+        padding: 0;
     }
 
     #ul {
@@ -335,11 +332,11 @@ img.things, img.thing {
 /* MED MED MED MED MED MED MED MED MED */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar {
-        padding: 0 18vw;
+        padding: 0 ;
     }
 
     #ul {
-        padding: 2.5vh 0;
+        padding: 2vh 0;
         width: 100vw;
         background-size: 64vw;
     }
@@ -396,13 +393,14 @@ img.things, img.thing {
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
-        padding: 0 2vw;
+        margin:0;
+        padding:0;
+        width: 97.5vw;
     }
-
     #ul {
-        padding: 3.25vh 0;
+        padding:2vh 0;
         width: 100vw;
-        background-size: 97vw;
+        background-size: 100vw;
     }
 
     #nav {
@@ -451,13 +449,15 @@ img.things, img.thing {
 /* XS XS XS XS XS XS XS XS XS */
 @media (max-width: 575px) {
     .navbar {
-        padding: 0 3vw;
+        margin:0;
+        padding:0;
+        width: 100vw;
     }
 
     #ul {
-        padding: 2.5vh 0;
+        padding: 2vh 0;
         width: 100vw;
-        background-size: 97vw;
+        background-size: 100vw;
     }
 
     #nav {
