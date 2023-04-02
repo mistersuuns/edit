@@ -91,7 +91,7 @@ h1 {
     letter-spacing: .05em;
 }
 h3 {
-    letter-spacing: .075em;
+    letter-spacing: .025em;
 }
 
 img {
@@ -162,7 +162,8 @@ img {
     border: solid .1px;
     border-radius: 10px;
     font-size: 1em;
-
+    color: #ffffffe9;
+    background-color: slategrey;
 }
 #quote {
     font-style: italic;
