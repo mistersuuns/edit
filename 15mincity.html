@@ -41,14 +41,17 @@
                             <a href="https://robertturner.co/copyedit"><img id="kub" src="RToutlineGrey-pinkC.png"></a>
                         </li>
                         <li class="nav-item">
-                            <h3 class="nav-link" id="nav"><a href="#port-folio" style="color: slategrey !important">Portfolio
+                            <h3 class="nav-link" id="nav"><a href="#port-folio"
+                                    style="color: slategrey !important">Portfolio
                             </h3>
                         </li>
                         <li class="nav-item">
-                            <h3 class="nav-link" id="nav"><a href="https://robertturner.co/copyedit/allwork" style="color: slategrey !important">All Work</h3>
+                            <h3 class="nav-link" id="nav"><a href="https://robertturner.co/copyedit/allwork"
+                                    style="color: slategrey !important">All Work</h3>
                         </li>
                         <li class="nav-item">
-                            <h3 class="nav-link" id="nav"><a href="#contact" style="color: slategrey !important">Contact</a></h3>
+                            <h3 class="nav-link" id="nav"><a href="#contact"
+                                    style="color: slategrey !important">Contact</a></h3>
                         </li>
                     </ul>
                 </nav>
@@ -91,12 +94,18 @@
                         <br>
                         <h3>The ask</h3>
 
-                        <p id="ask">
-                            The “15-minute city” has been promoted globally, by many city mayors – most famously Parisian mayor Anne Hidalgo. When the sprawling, car-dependent City of Nanaimo began touting the idea that it could become such a city, I wondered if it was possible to quantitatively evaluate how close or far a city is from approximating Moreno’s model. It seemed obvious that a city with Walk, Bike, and Public Transit Scores in the mid-30s could not possibly be a 15-minute city overall. But what about certain city districts? Were some neighborhoods more car-dependent than others? And if they were, could this be changed?
+                        <div id="quoteBlock">
+                            The “15-minute city” has been promoted globally, by many city mayors – most famously
+                            Parisian mayor Anne Hidalgo. When the sprawling, car-dependent City of Nanaimo began touting
+                            the idea that it could become such a city, I wondered if it was possible to quantitatively
+                            evaluate how close or far a city is from approximating Moreno’s model. It seemed obvious
+                            that a city with Walk, Bike, and Public Transit Scores in the mid-30s could not possibly be
+                            a 15-minute city overall. But what about certain city districts? Were some neighborhoods
+                            more car-dependent than others? And if they were, could this be changed?
                             <br>
                             <br>
                             <br>
-                        </p>
+                        </div>
                         <!--
                     The article must cover general information on factors affecting Python developer salaries, including full- vs. part-time vs. freelance status, seniority (junior, middle, senior), and region (USA, Sweden, and Ukraine). The article must also compare different hiring options, including in-house, freelance, and outsourcing/outstaffing.<br>
                     The article must use the semantically related words and phrases provided: "python developer salary in USA," "average," "backend," "beginner," "coder," "compensation," "cost of living," "data scientist," "developer," "django," "earn," "engineer," "entry level," "experience," "for freshers," "freelance," "full stack," "highest paid," "hourly rate," "java," "javascript," "job," "junior," "language," "lead," "machine learning," "mid level," "overview," "package," "pay," "pay scale," "per hour," "programmer," "programming," "python engineer," "range," "rates," "remote," "requirements," "resources," "salary," "scope," "senior," "skills," "starting," "starting salary," "tech," and "technologies."<br>
@@ -184,14 +193,22 @@
                     </div>
                     <div class="col-md-6 col-sm-12" id="Lpad">
                         <h3>Thought process</h3>
-                        <p id="ask">
+                        <div id="quoteBlock">
                             How to capture where a 15-minute city in fact exists?<br>
                             What makes a 15-minute city at minimum?<br>
                             15-minute access to essential and basic quality of life amenities.<br>
                             How to define these things?<br>
-                            Use some officially accepted standard. And to establish a baseline understanding of where a 15-minute city exists, use walkability as a proxy for universal access, realizing that while not everyone can walk, it still represents a very widely accessible means of transport.<br>
-                            People need different things. Some have kids in school. Some need a walk-in clinic or a foodbank. Those with low or no income may have to live in supported housing or a shelter. In other words, your need basket determines the places you could live and have 15-minute walking access to everything you need.<br>
-                            Once you've determined baskets of needs corresponding to different demographic groups, one needs to work backwards from need-baskets - 1 scrape for amenity locations, 2 map 15-minute walking isochrone zones around those locations, 3 find amenity isochrone overlaps for amenity baskets / groups.
+                            Use some officially accepted standard. And to establish a baseline understanding of where a
+                            15-minute city exists, use walkability as a proxy for universal access, realizing that while
+                            not everyone can walk, it still represents a very widely accessible means of transport.<br>
+                            People need different things. Some have kids in school. Some need a walk-in clinic or a
+                            foodbank. Those with low or no income may have to live in supported housing or a shelter. In
+                            other words, your need basket determines the places you could live and have 15-minute
+                            walking access to everything you need.<br>
+                            Once you've determined baskets of needs corresponding to different demographic groups, one
+                            needs to work backwards from need-baskets - 1 scrape for amenity locations, 2 map 15-minute
+                            walking isochrone zones around those locations, 3 find amenity isochrone overlaps for
+                            amenity baskets / groups.
                         </p>
                         <br>
                         <br>
@@ -208,10 +225,14 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12" id="Rpad">
                         <h3>What I did</h3>
-                        I chose search terms to scrape amenities, and ran an Apify google maps scraper. I then cleaned the scraped data.<br>
-                        I plotted amenity geolocation data using QGIS and ArcGIS, and used isochrone plug-ins to map isochrone zones. Then, I found intersection areas from amenity isochrone zones.<br>
-                        I was also able to provide an initial rough analysis of 15-minute zones / demographic groups' relationship to 2021 median income data available in ArcGIS datasets.
-                        ork backwards from amenities... google maps scrape amenity points, map isochrone zones around them, see where need basket isochrone zones all overlap = your 15-minute liveable zone</p>
+                        <div id="quoteBlock">I chose search terms to scrape amenities, and ran an Apify google maps scraper. I then cleaned
+                        the scraped data.<br>
+                        I plotted amenity geolocation data using QGIS and ArcGIS, and used isochrone plug-ins to map
+                        isochrone zones. Then, I found intersection areas from amenity isochrone zones.<br>
+                        I was also able to provide an initial rough analysis of 15-minute zones / demographic groups'
+                        relationship to 2021 median income data available in ArcGIS datasets.
+                        ork backwards from amenities... google maps scrape amenity points, map isochrone zones around
+                        them, see where need basket isochrone zones all overlap = your 15-minute liveable zone</div>
                         <br>
                         <br>
                     </div>
@@ -295,10 +316,14 @@
                     </div>
                     <div class="col-md-6 col-sm-12" id="Lpad">
                         <h3>Results</h3>
-                        <div id="quoteBlock">Forthcoming publication in Future Plans - VIU Community Planning journal. <a href="https://mistersuuns.medium.com/a-15-minute-nanaimo-4f0721fae705">Pre-print on Medium.</a><br><br>
+                        <div id="quoteBlock">Forthcoming publication in Future Plans - VIU Community Planning journal.
+                            <a href="https://mistersuuns.medium.com/a-15-minute-nanaimo-4f0721fae705">Pre-print on
+                                Medium.</a><br><br>
 
-                            Picked up by Apify as a premium example of academic and urban planning research using Apify web scraping.<br>
-                            <a href="https://blog.apify.com/google-maps-data-15-minute-city/">How to Build a 15-minute City</a>
+                            Picked up by Apify as a premium example of academic and urban planning research using Apify
+                            web scraping.<br>
+                            <a href="https://blog.apify.com/google-maps-data-15-minute-city/">How to Build a 15-minute
+                                City</a>
                         </div>
                     </div>
                     <br><br>
@@ -345,42 +370,45 @@
         </div>
 
 
-    <div class="container-fluid" id="footer">
-        <div class="row">
-            <div class="col-xl-1"></div>
-            <div class="col-xs-12 col-xl-10"  id="contact">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <a id="footerKub" href="https://robertturner.co/copyedit">
-                            <img id="kubFoot" src="RToutline-white.png">
-                        </a>
-                    </div>
-                    <div class="col-lg-5 col-md-4">
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-xl-1"></div>
+                <div class="col-xs-12 col-xl-10" id="contact">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <a id="footerKub" href="https://robertturner.co/copyedit">
+                                <img id="kubFoot" src="RToutline-white.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-5 col-md-4">
 
-                        <br>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <ul>
-                            <li><a id="footerText">
-                                    <a id="footerLink" style="color: lightgray !important;" href="#coming-soon">Portfolio</a>
-                                </a>
-                            </li>
-                            <li><a id="footerText">
-                                    <a id="footerLink" style="color: lightgray !important;" href="https://robertturner.co/copyedit/allwork">All Work</a>
-                                </a>
-                            </li>
-                            <li id="footerText"  target="_blank" >
-                                <a id="footerLink" href="mailto:hello@robertturner.co" style="color:lightgray !important">hello@robertturner.co
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                            <br>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <ul>
+                                <li><a id="footerText">
+                                        <a id="footerLink" style="color: lightgray !important;"
+                                            href="#coming-soon">Portfolio</a>
+                                    </a>
+                                </li>
+                                <li><a id="footerText">
+                                        <a id="footerLink" style="color: lightgray !important;"
+                                            href="https://robertturner.co/copyedit/allwork">All Work</a>
+                                    </a>
+                                </li>
+                                <li id="footerText" target="_blank">
+                                    <a id="footerLink" href="mailto:hello@robertturner.co"
+                                        style="color:lightgray !important">hello@robertturner.co
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 
+                    </div>
                 </div>
+                <div class="col-xl-1"></div>
             </div>
-            <div class="col-xl-1"></div>
         </div>
-    </div>
 
 </body>
 
