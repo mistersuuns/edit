@@ -119,7 +119,7 @@ img {
     border-bottom: .05em solid slategrey;
 }
 #nav {
-    padding-top: 1.4em;
+    padding-top: 1.5em;
     font-size: 1.15em;
 }
 
@@ -157,7 +157,7 @@ img {
     border: solid .1px;
     border-radius: 10px;
     font-size: 1em;
-    color: slategray;
+    color: rgba(0, 0, 0, 0.90);
 }
 
 #quoteBlock {
