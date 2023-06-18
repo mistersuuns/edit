@@ -86,7 +86,7 @@ h1 {font-size: 1.2em;
 font-weight: 800;
 letter-spacing: .05em;}
 h3 {font-size: 1.1em;
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: .025em;}
 
 img {
@@ -151,7 +151,16 @@ img {
     border-radius: 10px;
 }
 
-#bio, #bioSmall, #quoteBlock {
+#bio, #bioSmall {
+    padding: .5em;
+    margin: 0 1em 1.5em 0;
+    border: solid .1px;
+    border-radius: 10px;
+    font-size: 1em;
+    color: slategray;
+}
+
+#quoteBlock {
     padding: .5em;
     margin: 0 1em 1.5em 0;
     border: solid .1px;
@@ -352,7 +361,7 @@ li {
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 @media (min-width: 576px) and (max-width: 767px) {
 
-    #bioSmall {display: none;}
+    #bio {display: none;}
 
     #kub {
         width: 5em;
