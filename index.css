@@ -119,8 +119,15 @@ img {
     border-bottom: .05em solid slategrey;
 }
 #nav {
-    padding-top: 1.5em;
     font-size: 1.15em;
+}
+.nav-link {
+    margin-top: 1.5em;
+}
+.nav-link.contact {
+    border: solid .1px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.90);
 }
 
 /* nav */
@@ -301,7 +308,7 @@ li {
 /* MED MED MED MED MED MED MED MED MED */
 @media (min-width: 768px) and (max-width: 991px) {
     
-    #bioSmall {display: none;}
+    #bio {display: none;}
 
     #kub {
         width: 5em;
