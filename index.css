@@ -136,7 +136,7 @@ img {
     border: solid .1px;
     border-radius: 10px;
     color: rgba(0, 0, 0, 0.90);
-    background-color: #FF579F;
+    background-color: rgba(0, 0, 0, 0.79);
 }
 
 /* nav */
