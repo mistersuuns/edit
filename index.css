@@ -119,14 +119,16 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
 .navbar-expand {
+    margin: .5em 0;
     border-bottom: .05em solid slategrey;
 }
 #nav {
+    margin-top: .5em;
     font-size: 1.15em;
 }
 .nav-link {
-    margin-top: 1.5em;
     border: solid .1px;
     border-radius: 10px;
 }
@@ -138,8 +140,6 @@ img {
 }
 
 /* nav */
-
-
 
 #test, #line, #articleLine {
     font-size: 1.1em;
@@ -271,8 +271,9 @@ li {
 
     #kub {
         width: 5em;
-        padding: 1.5em .25em;
+        padding: 0 .25em;
         margin-right: 50vw;
+        margin-bottom: .5em;
     }
     #kubFoot {
         width: 4em;
@@ -297,8 +298,8 @@ li {
     }
     #kub {
         width: 5em;
-        padding: 1em 0;
         margin-right: 48vw;
+        margin-bottom: .5em;
     }
     #kubFoot {
         width: 4em;
@@ -319,8 +320,8 @@ li {
 
     #kub {
         width: 5em;
-        padding: 1em 0;
         margin-right: 48vw;
+        margin-bottom: .5em;
     }
     #kubFoot {
         width: 5em;
@@ -379,8 +380,8 @@ li {
 
     #kub {
         width: 5em;
-        padding: 1em 0;
         margin-right: 35vw;
+        margin-bottom: .5em;
     }
     #kubFoot {
         width: 5em;
@@ -436,8 +437,8 @@ h1, h3 {
 
         #kub {
             width: 5em;
-            padding: 1em .25em;
             margin-right: 3.5vw;
+            margin-bottom: .5em;
         }
         #kubFoot {
             width: 5em;
