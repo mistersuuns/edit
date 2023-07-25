@@ -15,15 +15,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
-         <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-83D8HHVKZF"></script>
- <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
- 
-   gtag('config', 'G-83D8HHVKZF');
- </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-83D8HHVKZF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-83D8HHVKZF');
+    </script>
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -78,7 +78,7 @@
                     <div class="col">
                         <br><br>
                         <h1>
-                            <br>Is your 15-minute City the Same as Mine?
+                            <br><a id="border-black">Is your 15-minute City the Same as Mine?</a>
                             <br>
                             <br>
                         </h1>
@@ -99,9 +99,9 @@
             <div class="col-xl-1"></div>
             <div class="col-12 col-xl-10">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12" id="Rpad">
+                    <div class="col-md-6 col-sm-12">
                         <br>
-                        <h3>The ask</h3>
+                        <h3><a id="border-black">The ask</a></h3>
 
                         <div id="quoteBlock">
                             The “15-minute city” has been promoted globally, by many city mayors – most famously
@@ -112,8 +112,7 @@
                             a 15-minute city overall. But what about certain city districts? Were some neighborhoods
                             more car-dependent than others? And if they were, could this be changed?
                             <br>
-                            <br>
-                            <br>
+
                         </div>
                         <!--
                     The article must cover general information on factors affecting Python developer salaries, including full- vs. part-time vs. freelance status, seniority (junior, middle, senior), and region (USA, Sweden, and Ukraine). The article must also compare different hiring options, including in-house, freelance, and outsourcing/outstaffing.<br>
@@ -167,6 +166,28 @@
             <div class="col-12 col-xl-10">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
+                        <h3><a id="border-black">Thought process</a></h3>
+                        <div id="quoteBlock">
+                            How to capture where a 15-minute city in fact exists?<br>
+                            What makes a 15-minute city at minimum?<br>
+                            15-minute access to essential and basic quality of life amenities.<br>
+                            How to define these things?<br>
+                            Use some officially accepted standard. And to establish a baseline understanding of where a
+                            15-minute city exists, use walkability as a proxy for universal access, realizing that while
+                            not everyone can walk, it still represents a very widely accessible means of transport.<br>
+                            People need different things. Some have kids in school. Some need a walk-in clinic or a
+                            foodbank. Those with low or no income may have to live in supported housing or a shelter. In
+                            other words, your need basket determines the places you could live and have 15-minute
+                            walking access to everything you need.<br>
+                            Once you've determined baskets of needs corresponding to different demographic groups, one
+                            needs to work backwards from need-baskets - 1 scrape for amenity locations, 2 map 15-minute
+                            walking isochrone zones around those locations, 3 find amenity isochrone overlaps for
+                            amenity baskets / groups.
+                            <br>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
                         <div class="slideshow">
                             <div class="slide">
                                 <img id="slideImg" src="Figure3.png" alt="">
@@ -200,239 +221,226 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12" id="Lpad">
-                        <h3>Thought process</h3>
+
+                </div>
+                <div class="col-xl-1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pf">
+        <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-12 col-xl-10">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h3><a id="border-black">What I did</a></h3>
+                        <div id="quoteBlock">First, I created a list and google maps-scraped "essential" amenity
+                            locations – grocery markets, pharmacies, parks, schools, and so on. Next, I cleaned the
+                            scrape data, and mapped these locations' 15-minute walk zones using QGIS, and their
+                            overlap. These overlapping amenity-access zones would be 15: neighbourhoods.
+                            <br><br>
+                            To understand just how many people can live in and enjoy a 15: city, I overlaid my 15:
+                            zones on a population density map. And to get a rough idea of who can afford to live in
+                            these 15: zones, I superimposed my 15: maps on a median household income map.
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="slideshow">
+                            <div class="slide">
+                                <img id="slideImg" src="map5.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map6-7.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map22-24.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map28-30.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map40-41.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map5.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map6-7.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map22-24.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map28-30.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="map40-41.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+    </div>
+    <div class="container-fluid pf">
+        <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-12 col-xl-10">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h3><a id="border-black">Results</a></h3>
                         <div id="quoteBlock">
-                            How to capture where a 15-minute city in fact exists?<br>
-                            What makes a 15-minute city at minimum?<br>
-                            15-minute access to essential and basic quality of life amenities.<br>
-                            How to define these things?<br>
-                            Use some officially accepted standard. And to establish a baseline understanding of where a
-                            15-minute city exists, use walkability as a proxy for universal access, realizing that while
-                            not everyone can walk, it still represents a very widely accessible means of transport.<br>
-                            People need different things. Some have kids in school. Some need a walk-in clinic or a
-                            foodbank. Those with low or no income may have to live in supported housing or a shelter. In
-                            other words, your need basket determines the places you could live and have 15-minute
-                            walking access to everything you need.<br>
-                            Once you've determined baskets of needs corresponding to different demographic groups, one
-                            needs to work backwards from need-baskets - 1 scrape for amenity locations, 2 map 15-minute
-                            walking isochrone zones around those locations, 3 find amenity isochrone overlaps for
-                            amenity baskets / groups.
-                            </p>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-1"></div>
-            </div>
-        </div>
-        <div class="container-fluid pf">
-            <div class="row">
-                <div class="col-xl-1"></div>
-                <div class="col-12 col-xl-10">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12" id="Rpad">
-                            <h3>What I did</h3>
-                            <div id="quoteBlock">First, I created a list and google maps-scraped "essential" amenity
-                                locations – grocery markets, pharmacies, parks, schools, and so on. Next, I cleaned the
-                                scrape data, and mapped these locations' 15-minute walk zones using QGIS, and their
-                                overlap. These overlapping amenity-access zones would be 15: neighbourhoods.
-                                <br><br>
-                                To understand just how many people can live in and enjoy a 15: city, I overlaid my 15:
-                                zones on a population density map. And to get a rough idea of who can afford to live in
-                                these 15: zones, I superimposed my 15: maps on a median household income map.
-                            </div>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="slideshow">
-                                <div class="slide">
-                                    <img id="slideImg" src="map5.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map6-7.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map22-24.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map28-30.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map40-41.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map5.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map6-7.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map22-24.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map28-30.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="map40-41.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-1"></div>
-            </div>
-        </div>
-        <div class="container-fluid pf">
-            <div class="row">
-                <div class="col-xl-1"></div>
-                <div class="col-12 col-xl-10">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <div class="slideshow">
-                                <div class="slide">
-                                    <img id="slideImg" src="spacing-15.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="spacing-15-2.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="spacing-15-3.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="spacing-15-4.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="spacing-15-5.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="apify15-1.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="apify15-2.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="apify15-3.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="apify15-4.png" alt="">
-                                </div>
-                                <div class="slide">
-                                    <img id="slideImg" src="medium15.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12" id="Lpad">
-                            <h3>Results</h3>
-                            <div id="quoteBlock">
-                                Article in Spacing:Vancouver.<br><br>
-                                <div id="quoteBlock"><a style="color: #ffffffe9 !important; font-style: normal;"
-                                        href="https://spacing.ca/vancouver/2023/05/01/your-15-minute-city-is-not-my-15-minute-city/" target="_blank">Your
+                            Article in Spacing:Vancouver.<br><br>
+                            <div id="quoteBlock"><a style="color: #ffffffe9 !important; font-style: normal;"
+                                    href="https://spacing.ca/vancouver/2023/05/01/your-15-minute-city-is-not-my-15-minute-city/"
+                                    target="_blank">Your
                                     15-minute City is Not My 15-minute City</a>
-                                </div>
-                                <br><br>
+                            </div>
+                            <br><br>
 
-                                Picked up by Apify as a premium example of academic and urban planning research using
-                                Apify
-                                web scraping.<br><br>
-                                <div id="quoteBlock"><a style="color: #ffffffe9 !important; font-style: normal;"
-                                        href="https://blog.apify.com/google-maps-data-15-minute-city/">How to Build a
-                                        15-minute
-                                        City</a>
-                                </div><br><br>
-                                Forthcoming publication in Future Plans - VIU Community Planning
-                                journal.<br><br>
-                                <div id="quoteBlock">
-                                    <a style="color: #ffffffe9 !important; font-style: normal;"
-                                        href="https://mistersuuns.medium.com/a-15-minute-nanaimo-4f0721fae705">
-                                        Medium Pre-print: We’re standing right next to each other. But you’re in a
-                                        15-minute city and I’m not.</a>
-                                </div>
+                            Picked up by Apify as a premium example of academic and urban planning research using
+                            Apify
+                            web scraping.<br><br>
+                            <div id="quoteBlock"><a style="color: #ffffffe9 !important; font-style: normal;"
+                                    href="https://blog.apify.com/google-maps-data-15-minute-city/">How to Build a
+                                    15-minute
+                                    City</a>
+                            </div><br><br>
+                            Forthcoming publication in Future Plans - VIU Community Planning
+                            journal.<br><br>
+                            <div id="quoteBlock">
+                                <a style="color: #ffffffe9 !important; font-style: normal;"
+                                    href="https://mistersuuns.medium.com/a-15-minute-nanaimo-4f0721fae705">
+                                    Medium Pre-print: We’re standing right next to each other. But you’re in a
+                                    15-minute city and I’m not.</a>
                             </div>
                         </div>
-                        <br><br>
                     </div>
-                    <div class="col-xl-1"></div>
-                </div>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xl-1"></div>
-                    <div class="col-12 col-xl-10" id="complete-portfolio">
-                        <br><br>
-                        <h1>
-                            <br>Portfolio
-                            <br>
-                            <br>
-                        </h1>
-                        <div class="row" id="test">
-                            <div class="col-5 col-sm-3">
-                                <a href="https://robertturner.co/copyedit/pythondev.html"><img id="portfolio"
-                                        src="pythonDev-hero.jpg"></a>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="slideshow">
+                            <div class="slide">
+                                <img id="slideImg" src="spacing-15.png" alt="">
                             </div>
-                            &nbsp;&nbsp;
-                            <div class="col-5 col-sm-3">
-                                <a href="https://robertturner.co/copyedit/24px.html"><img id="mooncats"
-                                        src="mooncats-square.png"></a>
+                            <div class="slide">
+                                <img id="slideImg" src="spacing-15-2.png" alt="">
                             </div>
-                            &nbsp;&nbsp;
-                            <div class="col-5 col-sm-3">
-                                <a href="https://robertturner.co/copyedit/15mincity.html"><img id="portfolio"
-                                        src="15minute-map3-square.jpg"></a>
+                            <div class="slide">
+                                <img id="slideImg" src="spacing-15-3.png" alt="">
                             </div>
-                            &nbsp;&nbsp;
-                            <div class="col-5 col-sm-3">
-                                <a href="https://robertturner.co/copyedit/obfuscation.html"><img id="portfolio"
-                                        src="obfuscation-square.png"></a>
+                            <div class="slide">
+                                <img id="slideImg" src="spacing-15-4.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="spacing-15-5.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="apify15-1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="apify15-2.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="apify15-3.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="apify15-4.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img id="slideImg" src="medium15.png" alt="">
                             </div>
                         </div>
-                        <br><br>
                     </div>
-                    <div class="col-xl-1"></div>
+
+                    <br>
                 </div>
+                <div class="col-xl-1"></div>
             </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-12 col-xl-10" id="complete-portfolio">
+                <br><br>
+                <h1>
+                    <br><a id="border-black">Portfolio</a>
+                    <br>
+                    <br>
+                </h1>
+                <div class="row" id="test">
+                    <div class="col-5 col-sm-3">
+                        <a href="https://robertturner.co/copyedit/superlinked.html"><img id="portfolio"
+                                src="setup-superlinkedEntre.png"></a>
+                    </div>
+                    &nbsp;&nbsp;
+                    <div class="col-5 col-sm-3">
+                        <a href="https://robertturner.co/copyedit/pythondev.html"><img id="portfolio"
+                                src="pythonDev-hero.jpg"></a>
+                    </div>
+                    &nbsp;&nbsp;
+                    <div class="col-5 col-sm-3">
+                        <a href="https://robertturner.co/copyedit/24px.html"><img id="mooncats"
+                                src="mooncats-square.png"></a>
+                    </div>
+                    &nbsp;&nbsp;
+                    <div class="col-5 col-sm-3">
+                        <a href="https://robertturner.co/copyedit/15mincity.html"><img id="portfolio"
+                                src="15minute-map3-square.jpg"></a>
+                    </div>
+                    &nbsp;&nbsp;
+                    <div class="col-5 col-sm-3">
+                        <a href="https://robertturner.co/copyedit/obfuscation.html"><img id="portfolio"
+                                src="obfuscation-square.png"></a>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+    </div>
 
 
-            <div class="container-fluid" id="footer">
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-xs-0 col-xl-1"></div>
+            <div class="col-xs-12 col-xl-10">
                 <div class="row">
-                    <div class="col-xs-0 col-xl-1"></div>
-                    <div class="col-xs-12 col-xl-10">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4" id="contact">
-                                <a id="footerKub" href="https://robertturner.co/copyedit">
-                                    <img id="kubFoot" src="RToutline-white.png">
+                    <div class="col-lg-4 col-md-4" id="contact">
+                        <a id="footerKub" href="https://robertturner.co/copyedit">
+                            <img id="kubFoot" src="RToutline-white.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 col-md-4">
+
+                        <br>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <ul>
+                            <li><a id="footerText">
+                                    <a id="footerLink" style="color: lightgray !important;"
+                                        href="#complete-portfolio">Portfolio</a>
                                 </a>
-                            </div>
-                            <div class="col-lg-5 col-md-4">
-        
-                                <br>
-                            </div>
-                            <div class="col-lg-3 col-md-4">
-                                <ul>
-                                    <li><a id="footerText">
-                                            <a id="footerLink" style="color: lightgray !important;"
-                                                href="#complete-portfolio">Portfolio</a>
-                                        </a>
-                                    </li>
-                                    <li><a id="footerText">
-                                            <a id="footerLink" style="color: lightgray !important;"
-                                                href="https://robertturner.co/copyedit/allwork">All Work</a>
-                                        </a>
-                                    </li>
-                                    <li id="footerText">
-                                        <a id="footerLink" target="_blank" href="mailto:hello@robertturner.co" style="border: none; background-color: rgba(0, 0, 0, 0.6); color:lightgray !important">hello@robertturner.co</a>
-                                    </li>
-                                </ul>
-                                <br>
-                            </div>
-                        </div>
+                            </li>
+                            <li><a id="footerText">
+                                    <a id="footerLink" style="color: lightgray !important;"
+                                        href="https://robertturner.co/copyedit/allwork">All Work</a>
+                                </a>
+                            </li>
+                            <li id="footerText">
+                                <a id="footerLink" target="_blank" href="mailto:hello@robertturner.co"
+                                    style="border: none; background-color: rgba(0, 0, 0, 0.6); color:lightgray !important">hello@robertturner.co</a>
+                            </li>
+                        </ul>
+                        <br>
                     </div>
-                    <div class="col-xs-0 col-xl-1"></div>
                 </div>
             </div>
+            <div class="col-xs-0 col-xl-1"></div>
+        </div>
+    </div>
 
 </body>
 
