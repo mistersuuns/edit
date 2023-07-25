@@ -122,10 +122,12 @@ img {
 
 #ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .navbar-expand {
+    display: flex;
+    justify-content: space-between;
     margin: .5em 0;
     border-bottom: .05em solid slategrey;
 }
@@ -134,6 +136,7 @@ img {
     font-size: 1.15em;
 }
 .nav-link {
+    margin-left: 1em;
     border: solid .1px;
     border-radius: 10px;
 }
@@ -262,9 +265,9 @@ img.things, img.thing {
     border-radius: 10px;
     text-decoration: none;
 }
-li {
+/* li {
     list-style-type: none;
-}
+} */
 
 
 
@@ -277,8 +280,7 @@ li {
     #kub {
         width: 5em;
         padding: 0 .25em;
-        margin-right: 50vw;
-        margin-bottom: .5em;
+    margin-bottom: .5em;
     }
     #kubFoot {
         width: 4em;
@@ -303,7 +305,6 @@ li {
     }
     #kub {
         width: 5em;
-        margin-right: 48vw;
         margin-bottom: .5em;
     }
     #kubFoot {
@@ -325,7 +326,6 @@ li {
 
     #kub {
         width: 5em;
-        margin-right: 48vw;
         margin-bottom: .5em;
     }
     #kubFoot {
@@ -385,7 +385,6 @@ li {
 
     #kub {
         width: 5em;
-        margin-right: 35vw;
         margin-bottom: .5em;
     }
     #kubFoot {
@@ -447,7 +446,6 @@ h1, h3 {
 
         #kub {
             width: 5em;
-            margin-right: 3.5vw;
             margin-bottom: .5em;
         }
         #kubFoot {
