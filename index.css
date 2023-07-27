@@ -113,7 +113,8 @@ h1 {
     color: #FF006E;
 }
 
-#border-black-superlinked,
+#border-black-superlinked, 
+#border-black-python-xs,
 #border-black {
     color: white;
     padding: .25em;
@@ -356,7 +357,9 @@ img.thing {
     #bioSmall {
         display: none;
     }
-
+    #border-black-python-xs {
+        display: none;
+    }
     #kub {
         width: 5em;
         padding: 0 .25em;
@@ -386,7 +389,9 @@ img.thing {
     .container-fluid {
         padding: 0 2em;
     }
-
+    #border-black-python-xs {
+        display: none;
+    }
     #kub {
         width: 5em;
         margin-bottom: .5em;
@@ -410,7 +415,9 @@ img.thing {
     #bio {
         display: none;
     }
-
+    #border-black-python-xs {
+        display: none;
+    }
     #kub {
         width: 5em;
         margin-bottom: .5em;
@@ -475,7 +482,9 @@ img.thing {
     #bio {
         display: none;
     }
-
+    #border-black-python-xs {
+        display: none;
+    }
     #kub {
         width: 5em;
         margin-bottom: .5em;
@@ -579,6 +588,9 @@ img.thing {
     #border-black-superlinked {
         letter-spacing: .7px;
         font-size: .725em;
+    }
+    #border-black-python {
+        display: none;
     }
 
     #test {
