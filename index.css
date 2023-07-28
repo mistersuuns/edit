@@ -225,15 +225,6 @@ img {
     border-radius: 10px;
 }
 
-#bio,
-#bioSmall {
-    padding: .5em;
-    margin: 0 1em 1.5em 0;
-    border: solid .1px;
-    border-radius: 10px;
-    font-size: 1em;
-    color: rgba(0, 0, 0, 0.90);
-}
 
 #quoteBlock {
     padding: .5em;
