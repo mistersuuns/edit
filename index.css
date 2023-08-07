@@ -239,9 +239,8 @@ img {
     font-style: italic;
 }
 
-#logo {
-    display: grid;
-    padding: 1vw 1vw;
+.logo {
+    padding: 10em;
 }
 
 
@@ -254,11 +253,6 @@ img.things,
 img.thing {
     width: 8em;
     margin: .25em;
-}
-
-.jhu {
-    width: 5em;
-    margin: .5em;
 }
 
 #portfolio,
