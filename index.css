@@ -231,18 +231,13 @@ img {
     border: solid .1px;
     border-radius: 10px;
     font-size: 1em;
-    color: #ffffffe9;
-    background-color: slategrey;
+    color: white;
+    background-color: slategray;
 }
 
 #quote {
     font-style: italic;
 }
-
-.logo {
-    padding: 10em;
-}
-
 
 img.mooncats {
     padding: 2em;
