@@ -119,7 +119,7 @@ h1 {
     color: white;
     padding: .25em;
     background-color: #FF006E;
-    border: .01px solid black;
+    /*border: .01px solid black;*/
     border-radius: .5em;
 }
 
@@ -217,12 +217,23 @@ img {
 }
 
 #mooncats {
-    border: solid .1px slategrey;
+    border-bottom: solid .1px slategrey;
 }
 
 #portfolio,
 #mooncats {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+}
+#outer {
+    border: solid .1px slategrey;
+border-radius: 10px;
+margin-bottom: .5em;
+}
+#logo {
+border: solid .1px slategrey;
+border-radius: 10px;
+padding: .2em;
+margin: .2em;
 }
 
 #quoteBlock {
@@ -265,10 +276,10 @@ img.thing {
     transition: all .5s ease-in-out;
 }
 
-#portfolio:hover,
-#mooncats:hover {
+#outer:hover {
     cursor: pointer;
     transform: scale(1.03);
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 2.5s;
 }
 
 #article-img {
@@ -304,11 +315,18 @@ img.thing {
     justify-content: space-between;
 }
 
-
+#cutline {
+    font-size: 11pt;
+    color: rgb(40, 40, 41);
+    line-height: 1.22em;
+    padding: .5em .15em 0 .15em;
+}
 
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
+
+
 
     #bioSmall {
         display: none;
