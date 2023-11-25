@@ -89,7 +89,7 @@
 
 
 body {
-    font-family: "Inter";
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     color: slategrey;
 }
@@ -317,7 +317,7 @@ img.thing {
 }
 
 #cutline {
-    font-size: 11pt;
+    font-size: .9em;
     color: rgb(40, 40, 41);
     line-height: 1.22em;
     padding: .5em .15em 0 .15em;
