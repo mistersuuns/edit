@@ -224,6 +224,7 @@ img {
 #mooncats {
     border-radius: 10px 10px 0 0;
 }
+
 #outer {
     border: solid .1px slategrey;
 border-radius: 10px;
@@ -325,8 +326,6 @@ img.thing {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
-
-
 
     #bioSmall {
         display: none;
