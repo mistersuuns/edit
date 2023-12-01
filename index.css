@@ -118,7 +118,7 @@ h1 {
 #border-black {
     color: white;
     padding: .25em;
-    background-color: #FF006E;
+    background-color: #ff4800e6;
     /*border: .01px solid black;*/
     border-radius: .5em;
 }
@@ -216,9 +216,9 @@ img {
     padding-bottom: .5em;
 }
 
-#mooncats {
+/* #mooncats {
     border-bottom: solid .1px slategrey;
-}
+} */
 
 #portfolio,
 #mooncats {
@@ -227,6 +227,7 @@ img {
 
 #outer {
     border: solid .1px slategrey;
+    background-color: rgba(112, 128, 144, 0.184);
 border-radius: 10px;
 margin-bottom: .5em;
 }
@@ -242,13 +243,15 @@ margin: .2em;
     margin: 0 1em 1.5em 0;
     border: solid .1px;
     border-radius: 10px;
-    font-size: 1em;
-    color: white;
-    background-color: slategray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .8em;
+    letter-spacing: .0em;
+    color: black;
+    background-color: rgba(112, 128, 144, 0.184);
 }
 
 #quote {
-    font-style: italic;
+    font-style: oblique 10deg;
 }
 
 img.mooncats {
@@ -293,7 +296,7 @@ img.thing {
 
 #footer {
     padding-top: 1em;
-    background-color: slategrey;
+    background-image:linear-gradient(to left, #FF006E,#ff4800e6);
 }
 
 .footerText {
@@ -307,9 +310,9 @@ img.thing {
     text-decoration: none;
 }
 
-/* li {
+li {
     list-style-type: none;
-} */
+} 
 
 .row.footer {
     display: flex;
@@ -317,10 +320,10 @@ img.thing {
 }
 
 #cutline {
-    font-size: .9em;
+    font-size: .8em;
     color: rgb(40, 40, 41);
     line-height: 1.22em;
-    padding: .5em .15em 0 .15em;
+    padding: .75em .5em 0 .5em;
 }
 
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
