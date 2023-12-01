@@ -284,6 +284,7 @@ img.thing {
     cursor: pointer;
     transform: scale(1.03);
     transition:cubic-bezier(0.075, 0.82, 0.165, 1) 2.5s;
+    background-image:linear-gradient(to left, #FF006E,#ff4800e6);
 }
 
 #article-img {
@@ -325,6 +326,11 @@ li {
     line-height: 1.22em;
     padding: .75em .5em 0 .5em;
 }
+#cutline:hover {
+    color: white;
+
+}
+
 
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
