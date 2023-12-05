@@ -160,7 +160,7 @@ margin: .2em;
 #quoteBlock {
     padding: .5em;
     margin: 0 0 1em 0;
-    border: solid .1px;
+    /*border: solid .1px;*/
     border-radius: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: .8em;
@@ -226,7 +226,12 @@ li {
     font-size: .8em;
     color: rgb(40, 40, 41);
     line-height: 1.22em;
-    padding: .75em 0;
+
+    padding: .75em .5em;
+    margin-bottom: .5em;
+    border-radius: 10px;
+    font-size: .8em;
+    background-color: rgba(255, 0, 60, 0.032);
 }
 #cutline:hover {
     cursor: pointer;
