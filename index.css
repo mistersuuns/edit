@@ -256,6 +256,10 @@ li {
     background-color: rgba(255, 0, 60, 0.089);
 }
 
+#pf-title {
+    font-weight: bold;
+}
+
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
