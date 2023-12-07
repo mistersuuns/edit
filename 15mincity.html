@@ -201,16 +201,8 @@
 
                             <h3><a id="border-black">Process</a></h3>
                             <div id="quoteBlock">
-                                How to capture where a 15-minute city in fact exists? What essential and basic quality of life amenities make a 15-minute city at a minimum? How to define these things?<br>
-                                To answer these questions, I looked for an officially accepted basic standard, and used walkability as a proxy for access. Different people need different things – school, walk-in clinic, foodbank, supported housing, shelters, and so on - and therefore need to live in different places to have 15-minute walking access to everything they need. So I worked backwards from group-specific need-baskets - 1 scrape for amenity locations, 2 map
-                                15-minute walking isochrone zones around those locations, 3 find amenity isochrone overlaps for
-                                amenity baskets / groups. First, I created a list and google maps-scraped "essential" amenity
-                                locations – grocery markets, pharmacies, parks, schools, and so on. Next, I cleaned the
-                                scrape data, and mapped these locations' 15-minute walk zones using QGIS, and their
-                                overlap. These overlapping amenity-access zones would be 15: neighbourhoods.<br>
-                                To understand just how many people can live in and enjoy a 15: city, I overlaid my 15:
-                                zones on a population density map. And to get a rough idea of who can afford to live in
-                                these 15: zones, I superimposed my 15: maps on a median household income map.
+                                How to capture where a 15-minute city in fact exists? What essential and basic quality of life amenities make a 15-minute city at a minimum? How to define these things? Different people need different things – school, walk-in clinic, foodbank, supported housing, shelters, and so on - and therefore need to live in different places to have 15-minute walking access to everything they need. So I worked backwards from group-specific need-baskets - 1. scrape for amenity locations, 2. map 15-minute walking isochrone zones around those locations, 3. find amenity isochrone overlaps for amenity baskets / groups.<br>
+                                I based my “essential” amenities (shelter, medical care, grocery, and pharmacy) and “basic quality of life” amenities (recreational space, library, museum / gallery / theater / cinema, restaurant / pub, and cafe / coffee) on a Canada gov doc, geolocated them with Apify google maps scraper, mapped and isochrone-zoned using QGIS, and remapped in ArcGIS to overlay amenity 15: zones on median income household data and population density.
                             </div>
                             <h3><a id="border-black">Results</a></h3>
                             <div id="quoteBlock">Article in Spacing:Vancouver.<br>
