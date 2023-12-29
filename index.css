@@ -228,7 +228,7 @@ li {
     border-radius: 0 0 10px 10px;
 }
 
-#cutline {
+#cutline, #cutline-super {
     font-size: .8em;
     color: rgb(40, 40, 41);
     line-height: 1.22em;
