@@ -169,7 +169,7 @@ margin: .2em;
     font-size: .8em;
     letter-spacing: .0em;
     color: black;
-    background-color: rgba(255, 0, 60, 0.089);
+    background-color: rgba(0, 0, 0, 0.075);
 }
 
 #quote {
@@ -237,7 +237,7 @@ li {
     margin-bottom: .5em;
     border-radius: 10px;
     font-size: .8em;
-    background-color: rgba(255, 0, 60, 0.089);
+    background-color: rgba(0, 0, 0, 0.075);
 }
 #cutline:hover, #cutline-pf:hover {
     cursor: pointer;
@@ -253,7 +253,7 @@ li {
     margin-bottom: .5em;
     border-radius: 0 0 10px 10px;
     font-size: .8em;
-    background-color: rgba(255, 0, 60, 0.089);
+    background-color: rgba(0, 0, 0, 0.075);
 }
 
 #pf-title {
