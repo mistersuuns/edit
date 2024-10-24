@@ -36,6 +36,11 @@ h1 {
     border-radius: .5em;
 }
 
+.carousel-item img.home {
+    border: solid .1px;
+    border-radius: 10px 10px 0 0;
+}
+
 .carousel-item img {
     border: solid .1px;
     border-radius: 10px;
@@ -246,14 +251,16 @@ li {
     background-color: #FF006E;
 } 
 #cutline-pf {
+    display:inline-block;
     font-size: .8em;
+    
     color: rgb(40, 40, 41);
     line-height: 1.22em;
     padding: .75em .5em;
     margin-bottom: .5em;
     border-radius: 0 0 10px 10px;
     font-size: .8em;
-    background-color: rgba(0, 0, 0, 0.075);
+    background-color: rgba(249, 58, 10, 0.25);
 }
 
 #pf-title {
