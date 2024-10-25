@@ -276,7 +276,10 @@ li {
 #pf-title {
     font-weight: bold;
 }
-
+#review-author {
+    font-weight: bold; 
+    color: ;
+}
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
