@@ -244,19 +244,22 @@ li {
     font-size: .8em;
     color: rgb(40, 40, 41);
     line-height: 1.22em;
-
     padding: .75em .5em;
     margin-bottom: .5em;
     border-radius: 10px;
     font-size: .8em;
     background-color: rgba(0, 0, 0, 0.075);
 }
-#cutline:hover, #cutline-pf:hover {
+#cutline:hover, #cutline-pf:hover, #cutline-super:hover {
     cursor: pointer;
     transform: scale(1.015);
     transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     background-color: #FF006E;
 } 
+#cutline-text:hover {
+    text-decoration: none;
+}
+
 #cutline-pf {
     display:inline-block;
     font-size: .8em;
