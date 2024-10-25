@@ -281,6 +281,9 @@ li {
     .col-lg-6.left {
         padding-right: 2.5em;
     }
+    #bio {
+        font-size: 2.25em;
+    }
     #bioSmall {
         display: none;
     }
@@ -308,6 +311,9 @@ li {
 
     .col-lg-6.left {
         padding-right: 1em;
+    }
+    #bio {
+        font-size: 2.25em;
     }
     #bioSmall {
         display: none;
@@ -342,8 +348,14 @@ li {
     #space {
         padding-top: .5em;
     }
+    #headParis {
+        width: 5em;
+    }
     #bio {
         display: none;
+    }
+    #bioSmall {
+        font-size: 1.75em; 
     }
     #border-black-superlinked {
         letter-spacing: .7px;
@@ -379,6 +391,12 @@ li {
 
     #space {
         padding-top: .5em;
+    }
+    #headParis {
+        width: 4em;
+    }
+    #bioSmall {
+        font-size: 1.5em; 
     }
     #bio {
         display: none;
@@ -421,6 +439,12 @@ li {
 
     #space {
         padding-top: .5em;
+    }
+    #headParis {
+        width: 5em;
+    }
+    #bioSmall {
+        font-size: 1.25em; 
     }
     #bio {
         display: none;
