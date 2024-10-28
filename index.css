@@ -43,7 +43,7 @@ h1 {
 }
 
 .carousel-item img {
-    border: solid .1px;
+    border: solid .1px black;
     border-radius: 10px;
 }
 .carousel-item {
