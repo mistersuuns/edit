@@ -365,6 +365,7 @@ li {
     }
     #bioSmall {
         font-size: 1.75em; 
+        padding
     }
     #border-black-superlinked {
         letter-spacing: .7px;
@@ -453,7 +454,7 @@ li {
         width: 5em;
     }
     #bioSmall {
-        font-size: 1.25em; 
+        font-size: 1.5em; 
     }
     #bio {
         display: none;
