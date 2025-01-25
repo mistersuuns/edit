@@ -113,8 +113,7 @@ img {
 .nav-link.contact {
     border: solid .1px;
     border-radius: 10px;
-    color: rgba(0, 0, 0, 0.90);
-    background-color: rgba(0, 0, 0, 0.79);
+    background-color: rgba(250, 3, 64, 0.79);
 }
 
 /* nav */
@@ -364,7 +363,8 @@ li {
         display: none;
     }
     #bioSmall {
-        font-size: 1.75em; 
+        font-size: 1.8em; 
+        letter-spacing: 1px;
     }
     #border-black-superlinked {
         letter-spacing: .7px;
@@ -402,10 +402,11 @@ li {
         padding-top: .5em;
     }
     #headParis {
-        width: 4em;
+        width: 6em;
     }
     #bioSmall {
-        font-size: 1.5em; 
+        font-size: 1.8em; 
+        letter-spacing: 1px;
     }
     #bio {
         display: none;
@@ -453,7 +454,8 @@ li {
         width: 5em;
     }
     #bioSmall {
-        font-size: 1.5em; 
+        font-size: 1.6em; 
+        letter-spacing: 1px;
     }
     #bio {
         display: none;
