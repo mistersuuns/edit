@@ -113,7 +113,7 @@ img {
 .nav-link.contact {
     border: solid .1px;
     border-radius: 10px;
-    background-color: rgba(250, 3, 64, 0.79);
+    background-color: rgb(37, 37, 37);
 }
 
 /* nav */
